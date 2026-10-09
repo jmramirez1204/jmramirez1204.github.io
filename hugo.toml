@@ -1,0 +1,17 @@
+baseURL = "https://github.com/jmramirez1204"
+languageCode = "es"
+title = "José Ramírez-Gómez"
+theme = "PaperMod"
+
+[params]
+  ShowToc = true
+  math = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['$$', '$$'], ['\[', '\]']]
+    inline = [['$', '$'], ['\(', '\)']]
+
+[taxonomies]
+  tag = "tags"
